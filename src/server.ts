@@ -7,6 +7,6 @@ app.register(getAllPromptsRoute);
 
 app.listen({
     port: 3333,
-}).then(() => { 
+}).then(() => {
     console.log("HTTP Server Running Smoothly");
 });
