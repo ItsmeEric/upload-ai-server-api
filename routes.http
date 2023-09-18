@@ -13,3 +13,13 @@ Content-Type: audio/mpeg
 
 < ./example.mp3
 ------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+###
+
+# @name create-transcription
+POST http://localhost:3333/videos/:42074dc2-e7ad-4564-bee7-2ede6f9767d1/transcription
+Content-Type: application/json
+
+{
+    "prompt": "Don Toliver, No idea, call me to your crib"
+}
